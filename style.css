@@ -18,12 +18,132 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+
 main {
-    display: block;
+    display: flex;
+    flex-direction: row;
     background-color: white;
 }
 
+#search {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#city-temp {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    width: 800px;
+    height: 150px;
+}
+
+#forecast {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    width: 800px;
+    height: 300px;
+}
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border: 1px solid transparent;
+    outline: none;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  }
+  
+  .btn.btn-block {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  
+  .btn.btn-info {
+    background-color: rgb(89, 153, 236);  
+    color: #ffffff;
+  }
+  
+  .btn.btn-info:hover {
+    background-color: #79e4ff;
+  }
+
+  form {
+    width: 100%;
+  }
+  
+  form .form-input,
+  form .form-textarea {
+    display: block;
+  }
+  
+  form .form-input {
+    width: 89%;
+    padding: 0.75rem;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    margin: 0.625rem 0;
+    font-size: 1.2rem;
+    border: 1px solid #484848;
+    border-radius: 0.3rem;
+  }
+
+.card {
+    border: 1px solid #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.card-col {
+    display: flex;
+    flex-direction: column;
+}
+  
+.card .card-header {
+    padding: 0.375rem;
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+}
+  
+.card .card-body {
+    padding: 0.375rem;
+}
+  
+.card .card-footer {
+    border-top: 1px solid #1a1a1a;
+    padding: 0.375rem;
+}
+  
+.card.card-rounded {
+    border-color: #2d3e50;
+    border-width: 5px;
+    border-radius: 5px;
+}
+  
+.card.card-rounded .card-header {
+    border-radius: 5px;
+}
+  
 footer {
-    padding: 5px 0px 5px 0px;
+    padding: 20px 0px 20px 0px;
     background-color: rgb(89, 153, 236);
 }
