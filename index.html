@@ -21,12 +21,21 @@
                     <input id="search-input" class="form-input col-12" type="text" placeholder="Enter a city">
                     <input id="submit-button" type="button" value="Search" class="btn btn-info btn-block col-12"></input>
                   </form>
-                  <div id="previous-search"></div>
+                  <div id="previous-search">
+                    <button id="history-1" type="button" class="btn btn-block col-12"></button>
+                    <button id="history-2" type="button" class="btn btn-block col-12"></button>
+                    <button id="history-3" type="button" class="btn btn-block col-12"></button>
+                    <button id="history-4" type="button" class="btn btn-block col-12"></button>
+                    <button id="history-5" type="button" class="btn btn-block col-12"></button>
+                    <button id="history-6" type="button" class="btn btn-block col-12"></button>
+                    <button id="history-7" type="button" class="btn btn-block col-12"></button>
+                    <button id="history-8" type="button" class="btn btn-block col-12"></button>
+                  </div>
             </section>
             <div class="card-col col-xs-12 col-sm-12 col-md-8 col-lg-9">
                 <section id="current-weather" class="col-12">
                     <h4 class="card-header">Current Weather: <span id="result-text"></span></h4>
-                    <div id="current-weather-content" class="card">
+                    <div id="current-weather-content" class="card card-current">
                         <div id="cw-location"></div>
                         <div id="cw-date"></div>
                         <div id="cw-icon"><img src="icons/unknown.png" alt=""></div>
@@ -35,7 +44,7 @@
                         <div id="cw-humidity"></div>
                     </div>
                 </section>
-                <section id="forecast" class="col-12">
+                <section id="forecast" class="row-12">
                     <h4 class="card-header">5-Day Forecast: <span id="result-text"></span></h4>
                     <div id="forecast-content" class="row">
                         <div id="day-1-card" class="card card-day">

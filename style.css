@@ -27,13 +27,14 @@ h4 {
   height: 46vw;
 }
 
-.card-current {
-  height: 30vw;
+#current-weather {
   margin-top: 1vw;
 }
 
-.card-forecast {
-  height: 30vw;
+.card-current {
+  margin-top: 1vw;
+  color: white;
+  background-color: rgb(89, 153, 236);
 }
 
 #search {
@@ -50,12 +51,12 @@ h4 {
 
 #forecast {
 
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 10px 13px;
 
 }
 
 .card-day {
-  max-width: 14vw;
+  max-width: 15.5vw;
   font-size: 10px;
   color: white;
   background-color: rgb(89, 153, 236);
@@ -105,27 +106,27 @@ form .form-input {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: 570px;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: 760px;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 990px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1190px;
   }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1390px;
   }
 }
 
