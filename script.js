@@ -73,16 +73,6 @@ submitButton.addEventListener("click", function() {
         return response.json()
       })
       .then(function (data) {
-        // console.log(data.list[0].dt_txt);
-        // console.log(data.list[0].weather[0].icon);
-        // console.log(data.list[0].main.temp);
-        // console.log(data.list[0].main.humidity);
-        // console.log(data.list[0].wind.speed);
-        // console.log(data.list[8].dt_txt);
-        // console.log(data.list[8].weather[0].icon);
-        // console.log(data.list[8].main.temp);
-        // console.log(data.list[8].main.humidity);
-        // console.log(data.list[8].wind.speed);
         setVisableForecastWeather1(data);
         setVisableForecastWeather2(data);
         setVisableForecastWeather3(data);
@@ -251,16 +241,6 @@ $('button').click(function(){
         return response.json()
       })
       .then(function (data) {
-        // console.log(data.list[0].dt_txt);
-        // console.log(data.list[0].weather[0].icon);
-        // console.log(data.list[0].main.temp);
-        // console.log(data.list[0].main.humidity);
-        // console.log(data.list[0].wind.speed);
-        // console.log(data.list[8].dt_txt);
-        // console.log(data.list[8].weather[0].icon);
-        // console.log(data.list[8].main.temp);
-        // console.log(data.list[8].main.humidity);
-        // console.log(data.list[8].wind.speed);
         setVisableForecastWeather1(data);
         setVisableForecastWeather2(data);
         setVisableForecastWeather3(data);
