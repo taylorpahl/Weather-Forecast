@@ -34,4 +34,6 @@ See LICENSE in root folder of repository.
 
 ## Features
 
-If your project has a lot of features, list them here.
+- Search bar for weather in any city
+- API fetching
+- Storage of previous searches within buttons which can be used to search
